@@ -1,0 +1,19 @@
+Variables: Una variable es la manera de asignar un valor a algo y almacenarlo, para poder utilizar mas tarde. Por ejemplo si yo compro cajas para guardar juguetes y separarlos por color, y en una caja escribo "juguetes de color rojo". Automaticamente cuando yo voy a esa caja y leo "juguetes de color rojo" me va a recordar que contiene esa caja. Lo mismo pasa con las variables si yo en el caso de escribir var nombre = 'agustin', en el momento que escriba nombre, la consola me va a recordar que le asigne el valor 'agustin'
+String: En el caso de las string las asignaciones a los valores son un conjunto de letras entre comillas (" " o  comillas simples ' '). Una string seria 'agustin' en el ejemplo de las variables,  var nombre = 'agustin'
+Funcion: sirve para agrupar codigos que voy a usar muchas veces. Lo que hago con la funcion es almacenar varios tipos de datos y poder modificar su valor, su string, su booleano o numeros. Un ejemplo, le voy a decir a un chico que guarde en su presentacion diga 'hola me llamo'. si yo quiero completar la presentaion con un nombre entran los argumentos, como lo lograria seria agregando en la funcion en el parentesis (nombre). un ejemplo:
+function presentacion (nombre){
+ console.log ('hola me llamo ' + nombre);
+}
+Y tambien existe el return, lo que nos devuelve un valor asignado segun la funcion. como por ejemplo voy a crear una funcion que multiplique
+function mutiplicar (a, b){
+ return a, b;
+}
+Estan la declaracion 'if' a esto se lo llama control de flujo, sirve para retornar si algo es verdadero o falso (true o false). un ejemplo
+function puedeBeberAlcohol (edad){
+ if (edad > 21)
+ return true 
+ }
+ return false 
+}
+Es com decir es verdad que se puede beber alcohol si tenes edad mayor a 21 y si tenes menos de 21 que diga falso
+Booleanos: Es la manera de asignarle a un valor si es verdadero o falso, nada mas que s eescribe en ingles (true o flase). Por ejemplo var meGustaElMate = true  o en caso de ser mentira cambio true por false
